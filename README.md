@@ -9,6 +9,12 @@ Regex Checker は、正規表現のテストを簡単に行えるシングルペ
 - リアルタイムでの結果表示
 - 無効な正規表現を自動的に無視
 
+## デモ
+
+このプロジェクトは GitHub Pages でデプロイされており、以下の URL でアクセスできます。
+
+[https://akhrszk.github.io/regex-checker/](https://akhrszk.github.io/regex-checker/)
+
 ## インストール方法
 
 1. このリポジトリをクローンするか、ZIP ファイルとしてダウンロードして解凍します。

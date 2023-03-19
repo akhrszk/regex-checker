@@ -1,0 +1,38 @@
+.matches-display {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.matches {
+  border: 1px solid #ccc;
+  padding: 8px;
+  height: 81px;
+  background-color: #f8f9fa;
+  font-size: 16px;
+  text-align: left;
+  overflow-y: auto; /* 結果が多い場合にスクロールバーを表示 */
+  flex-grow: 1; /* 入力欄と同じ高さにする */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.matches::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: -1;
+}
+
+mark {
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+}

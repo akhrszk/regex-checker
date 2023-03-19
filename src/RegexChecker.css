@@ -1,0 +1,62 @@
+/* src/RegexChecker.css */
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-row > .input-group {
+  width: 49%;
+}
+
+.matches-display {
+  position: relative;
+}
+
+.matches {
+  border: 1px solid #ccc;
+  padding: 8px;
+  height: 81px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  font-size: 16px;
+}
+
+.matches::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.test-string-input {
+  resize: none; /* ユーザーがリサイズできないように設定 */
+}

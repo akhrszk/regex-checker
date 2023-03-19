@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.test-string-input,
+.matches {
+  font-family: monospace; /* フォントファミリーを揃える */
+  line-height: 1.5; /* 行の高さを揃える */
+  font-size: 1rem; /* フォントサイズを揃える */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

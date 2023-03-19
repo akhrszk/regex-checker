@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Regex Checkar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Regex Checker は、正規表現のテストを簡単に行えるシングルページ Web アプリケーションです。正規表現とテスト文字列を入力するだけで、一致する部分を強調表示し、結果をリアルタイムで表示します。
 
-## Available Scripts
+## 機能
 
-In the project directory, you can run:
+- 正規表現とテスト文字列の入力
+- 一致する部分の強調表示
+- リアルタイムでの結果表示
+- 無効な正規表現を自動的に無視
 
-### `npm start`
+## インストール方法
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. このリポジトリをクローンするか、ZIP ファイルとしてダウンロードして解凍します。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/akhrszk/regex-checker.git
+```
 
-### `npm test`
+2. プロジェクトのディレクトリに移動します。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+cd regex-checker
+```
 
-### `npm run build`
+3. 依存関係をインストールします。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. 開発サーバーを起動します。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+これで、ブラウザが自動的に開き、アプリケーションが表示されます。デフォルトでは、[http://localhost:3000/](http://localhost:3000/) でアクセスできます。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 使用方法
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. 正規表現入力欄に正規表現を入力します。
+2. テスト文字列入力欄にテスト文字列を入力します。
+3. 結果表示欄に、一致する部分が強調表示されたテスト文字列がリアルタイムで表示されます。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ライセンス
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+このプロジェクトは、MIT ライセンスのもとで公開されています。詳細については、`LICENSE` ファイルを参照してください。

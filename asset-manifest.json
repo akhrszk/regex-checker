@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/regex-checker/static/css/main.cbdb3db4.css",
+    "main.js": "/regex-checker/static/js/main.70a0f434.js",
+    "static/js/787.c5d35fb4.chunk.js": "/regex-checker/static/js/787.c5d35fb4.chunk.js",
+    "index.html": "/regex-checker/index.html",
+    "main.cbdb3db4.css.map": "/regex-checker/static/css/main.cbdb3db4.css.map",
+    "main.70a0f434.js.map": "/regex-checker/static/js/main.70a0f434.js.map",
+    "787.c5d35fb4.chunk.js.map": "/regex-checker/static/js/787.c5d35fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbdb3db4.css",
+    "static/js/main.70a0f434.js"
+  ]
+}

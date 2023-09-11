@@ -14,7 +14,7 @@ Regex Checker は、正規表現のテストを簡単に行えるシングルペ
 
 [https://akhrszk.github.io/regex-checker/](https://akhrszk.github.io/regex-checker/)
 
-## インストール方法
+## 実行
 
 1. このリポジトリをクローンするか、ZIP ファイルとしてダウンロードして解凍します。
 
